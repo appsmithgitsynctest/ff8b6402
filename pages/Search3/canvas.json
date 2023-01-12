@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Search2",
-    "slug": "search2",
+    "name": "Search3",
+    "slug": "search3",
     "layouts": [
       {
         "viewMode": false,
@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 75,
+          "version": 64,
           "minHeight": 740,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -103,7 +103,6 @@
                       "labelTextSize": "0.875rem",
                       "rightColumn": 29,
                       "textAlign": "LEFT",
-                      "dynamicHeight": "FIXED",
                       "widgetId": "x3qdjtwwh7",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -113,9 +112,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "0px",
-                      "maxDynamicHeight": 9000,
-                      "fontSize": "1.8rem",
-                      "minDynamicHeight": 4
+                      "fontSize": "1.8rem"
                     },
                     {
                       "widgetName": "Text113",
@@ -149,7 +146,6 @@
                       "isDeprecated": false,
                       "rightColumn": 36,
                       "textAlign": "LEFT",
-                      "dynamicHeight": "FIXED",
                       "widgetId": "vbvmkuec76",
                       "isVisible": true,
                       "fontStyle": "",
@@ -159,9 +155,7 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
+                      "fontSize": "1rem"
                     },
                     {
                       "boxShadow": "none",
@@ -274,7 +268,6 @@
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "menuColor": "#000D3D",
-                      "menuItemsSource": "STATIC",
                       "iconAlign": "left",
                       "placement": "CENTER"
                     }
@@ -299,7 +292,6 @@
               "backgroundColor": "#000D3D",
               "isDeprecated": false,
               "rightColumn": 64,
-              "dynamicHeight": "FIXED",
               "widgetId": "tw7iwtp79f",
               "containerStyle": "card",
               "isVisible": true,
@@ -307,9 +299,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "minDynamicHeight": 4
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             },
             {
               "boxShadow": "none",
@@ -354,7 +344,6 @@
               "isDeprecated": false,
               "rightColumn": 14,
               "iconName": "search",
-              "dynamicHeight": "FIXED",
               "widgetId": "oisxj8zaqc",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -365,10 +354,8 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "0.375rem",
-              "maxDynamicHeight": 9000,
               "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
+              "defaultText": ""
             },
             {
               "boxShadow": "none",
@@ -417,7 +404,6 @@
               "isDeprecated": false,
               "rightColumn": 27,
               "iconName": "search",
-              "dynamicHeight": "FIXED",
               "widgetId": "hnalsnvtwk",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -428,10 +414,8 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
               "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
+              "defaultText": ""
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -513,6 +497,36 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "childStylesheet.button.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.button.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.menuColor"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.saveButtonColor"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.saveBorderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.discardButtonColor"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.discardBorderRadius"
                         },
                         {
                           "key": "tableData"
@@ -790,6 +804,36 @@
                         },
                         {
                           "key": "boxShadow"
+                        },
+                        {
+                          "key": "childStylesheet.button.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.button.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.menuColor"
+                        },
+                        {
+                          "key": "childStylesheet.menuButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.buttonColor"
+                        },
+                        {
+                          "key": "childStylesheet.iconButton.borderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.saveButtonColor"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.saveBorderRadius"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.discardButtonColor"
+                        },
+                        {
+                          "key": "childStylesheet.editActions.discardBorderRadius"
                         },
                         {
                           "key": "tableData"
@@ -1280,7 +1324,6 @@
               "key": "fqdezz8vpn",
               "isDeprecated": false,
               "rightColumn": 62,
-              "dynamicHeight": "FIXED",
               "widgetId": "umobyiwaer",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "{{appsmith.store.searchType}}",
@@ -1307,15 +1350,14 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "minDynamicHeight": 4
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
+              "id": "Search3_getAllCustomers",
               "name": "getAllCustomers",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1325,6 +1367,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_getAllOrders",
               "name": "getAllOrders",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1337,7 +1380,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Search2",
+        "id": "Search3",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -1348,5 +1391,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "63c00e1d14ec4b691c43f3c9_63c00e3a14ec4b691c43f451"
+  "gitSyncId": "63c00e5214ec4b691c43f4d1_63c00e6714ec4b691c43f559"
 }

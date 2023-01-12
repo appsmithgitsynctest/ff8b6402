@@ -2396,91 +2396,117 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "delayedOrders",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "monthlyDeliveryDates",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "monthlyExpectedDeliveryDates",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "orderValuePerMonth",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "ordersPerMonth",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "paymentMethod",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "popularProducts",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "refundMethod",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "refundValuePerMonth",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "refundedOrders",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "refundsPerMonth",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "totalCustomers",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Search3_Utils.getRefunds",
               "name": "totalOrders",
+              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
